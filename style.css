@@ -1,0 +1,43 @@
+/*
+ Theme Name:   gpedit
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      1
+*/
+
+.related-posts {
+    margin: 2em 0
+}
+
+ul {
+    margin: 0 0 1.5em 2em
+}
+
+.single .entry-meta {
+    margin-top: 20px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px 0
+}
+
+.entry-content,
+.right-sidebar {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.6
+}
+
+.breadcrumbs {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 5px
+}
